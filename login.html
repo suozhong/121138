@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录页</title>
+    <link rel="stylesheet" href="./dist/css/login.min.css">
+    <script src="./dist/js/jquery-1.12.4.min.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="header-center">
+            <a href="index.html">
+                <img src="./dist/img/logo_new.jpg" title="视客眼镜网">
+            </a>
+        </div>
+    </div>
+
+    <div class="center">
+        <div class="c-center">
+            <div class="c-left" id="c-left">
+                <div>
+                    <a href="index.html">
+                        <img src="./dist/img/201993023517608.jpg">
+                    </a>
+                </div>
+            </div>
+            <div class="c-right">
+                <div class="r-tab">
+                    <div class="tab-left" id="tab-left">普通登录</div>
+                    <div class="tab-right" id="tab-right">手机动态密码登录</div>
+                </div>
+                <div class="r-container">
+                    <ul>
+                        <li style='margin: 0; padding: 0;'>
+                            <div class="r-tips" id='r-tips'>&nbsp;</div>
+                        </li>
+                        <li>
+                            <div class="div-common" id='div-common'>
+                                <div class="txt-container">
+                                    <input type="text" id="txtUName" class="txtCommon">
+                                    <label>手机/邮箱</label>
+                                </div>
+                                <div class="txt-container">
+                                    <input type="password" id="txtUPwd" class="txtCommon">
+                                    <label>密码</label>
+                                </div>                                
+                                <div class="login">
+                                    <input type="button" value="登 录" id='btnCommon' class='btnCommon'>
+                                    &nbsp;
+                                    <a href="javascript:;">忘记密码？</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="div-active" id='div-active'>
+                                <div class="txt-container">
+                                    <input type="text" id="txtPhone" class="txtCommon">
+                                    <label>手机</label>
+                                </div>
+                                <div class="txt-container">
+                                    <input type="text" id="txtVFCode" class="txtCommon" style="width: 123px;">
+                                    <label>动态密码</label>
+                                    <span id="s-VFCode" class='s-VFCode'>获取动态密码</span>
+                                </div>
+                                <div class="txt-container">
+                                    <input type="button" value="登 录" id="btnActive" class="btnCommon">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="divBottom">
+                                <ul>
+                                    <li>
+                                        <div class="login-title"></div>
+                                        <div class="login-title-text">合作网站账号登录</div>
+                                        <div class="login-title"></div>
+                                    </li>
+                                    <li style='height: 70px;'>
+                                        <span title="微信登录" class='btn-weixin'></span>
+                                        <span title="QQ登录" class='btn-qq'></span>
+                                        <span title="微博登录" class='btn-weibo'></span>
+                                        <span title="支付宝登录" class='btn-alipay'></span>
+                                    </li>
+                                    <li style='padding: 40px 0 0 0; font-size: 16px;'>还不是视客网会员？</li>
+                                    <li style="padding: 10px 0 0 0; font-size: 13px;">
+                                        快速注册，尊享会员福利! &nbsp;&nbsp;
+                                        <a href="register.html">现在注册 >></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="footer-center">
+            <div class="footer-bottom">
+                <p>Copyright ©2019 南京视客网络科技有限公司 版权所有. 法律顾问：秦在丛（执业编号：13201200411564699）</p>
+                <img src="./dist/img/beiancode.jpg">
+                &nbsp;&nbsp;&nbsp;&nbsp;  
+                <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=32010402000492">
+                    <img src="./dist/img/police.png">
+                    苏公网安备 32010402000492号
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="./dist/js/login.min.js"></script>
+</body>
+</html>

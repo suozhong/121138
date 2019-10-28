@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 13px;
+}
+.header{
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    .header-center{
+        width: 1024px;
+        margin: 0 auto;
+        a{
+            color: #005bb5;
+            text-decoration: none;
+        }
+    }
+}
+
+.center{
+    width: 100%;
+    background: #f5f5f5;
+    .c-center{
+        width: 1024px;
+        height: 600px;
+        margin: 0 auto;
+        .c-left{
+            width: 405px;
+            height: 346px;
+            overflow: hidden;
+            position: relative;
+            float: left;
+            margin-top: 100px;
+            margin-left: 39px;
+            margin-right: 50px;
+
+        }
+        .c-right{
+            float: left;
+            width: 360px;
+            border: 1px solid #ccc;
+            margin: 50px 0 0 0;
+            // display: inline;
+            border-top: none;
+            height: 500px;
+            background-color: #fff;            
+            .r-tab{
+                width: 100%;
+                height: 60px;
+                border-top: 3px solid #ff0000;
+                .tab-left{
+                    float: left;
+                    width: 179px;
+                    text-align: center;
+                    line-height: 50px;
+                    font-size: 16px;
+                    // border-bottom: 1px solid #ccc;
+                    // border-right: 1px solid #ccc;
+                    cursor: pointer;
+                }
+                .tab-right{
+                    float: right;
+                    width: 179px;
+                    text-align: center;
+                    line-height: 50px;
+                    font-size: 16px;
+                    border-bottom: 1px solid #ccc;
+                    border-left: 1px solid #ccc;
+                    cursor: pointer;                    
+                }
+            }
+            .r-container ul li{
+                list-style: none;
+                padding: 0 0 0 45px;
+                margin: 0;
+                .r-tips{
+                    width: 305px;
+                    line-height: 25px;
+                    font-size: 13px;
+                    color: #ff0000;
+                    margin-left: 45px;
+                    padding-top: 5px;;
+                }
+                .div-common, .div-active .txt-container{
+                    position: relative;
+                    margin: 15px 0 0 0;
+                    .txtCommon{
+                        width: 270px;
+                        height: 35px;
+                        line-height: 30px;
+                        border: 1px solid #ccc;
+                        vertical-align: middle;
+                        font-size: 16px;
+                        background: transparent;
+                        position: relative;
+                        left: 0;
+                        top: 0;
+                        z-index: 10;
+                        color: #000;
+                        padding-left: 7px; 
+                    }
+                    label{
+                        color: #ccc;
+                        position: absolute;
+                        left: 7px;
+                        top: 9px;
+                        z-index: 5;
+                        font-size: 14px;
+                    }
+                }           
+                .div-common{
+                    position: relative;
+                    display: block;
+                    height: 183px;
+                    .txt-container{
+                        position: relative;
+                        margin: 15px 0 0 0;
+                    }
+                    .login{
+                        position: relative;
+                        margin: 0;
+                        line-height: 30px;
+                        margin-top: 5px;
+                        .btnCommon{
+                            width: 120px;
+                            height: 35px;
+                            font-size: 16px;
+                            cursor: pointer;
+                            background: url(../../dist/img/reg_title.jpg) repeat-x scroll 0 -183px;
+                            color: #fff;
+                            margin-right: 5px;
+                            margin-top: 5px; 
+                        }
+                        a{
+                            color: #005bb5;
+                            text-decoration: none;
+                        }
+                    }
+                }
+                .div-active{
+                    position: relative;
+                    display: none;
+                    height: 183px;
+                    .txt-container{
+                        // display: none;
+                        .s-VFCode{
+                            display: inline-block;
+                            width: 131px;
+                            height: 35px;
+                            line-height: 35px;
+                            background-color: #f8f8f8;
+                            color: #2da1e7;
+                            border: 1px solid #ccc;
+                            text-align: center;
+                            cursor: pointer;
+                            vertical-align: middle;
+                            font-size: 15px;
+                            margin-left: 10px;
+                        }
+                        .s-VFCode:hover{
+                            background-color: #2da1e7;
+                            color: white;
+                        }
+                        .btnCommon{
+                            width: 279px;
+                            height: 35px;
+                            font-size: 16px;
+                            cursor: pointer;
+                            background: url(../../dist/img/reg_title.jpg) repeat-x scroll 0 -183px;
+                            color: #fff;
+                            margin-right: 5px;
+                            margin-top: 5px; 
+                        }
+                    }
+                }
+                .divBottom{
+                    width: 280px;
+                    margin: 15px 0 0 0;
+                    ul li{
+                        list-style: none;
+                        padding: 0;
+                        margin: 0;
+                        .login-title{
+                            border-top: 1px solid #d7d7d7;
+                            width: 70px;
+                            float: left;
+                            margin-top: 8px; 
+                        }
+                        .login-title-text{
+                            float: left;
+                            font-size: 12px;
+                            color: #666;
+                            margin: 0 20px 0 20px; 
+                        }
+                        span{
+                            float: left;
+                            width: 38px;
+                            height: 38px;
+                            cursor: pointer;
+                            line-height: 38px;
+                            margin-top: 23px;
+                        }
+                        .btn-weixin{
+                            clear: both;
+                            background: url(../../dist/img/Login_weixin.png) no-repeat;
+                            background-size: 100%;
+                            margin-left: 9px;
+                        }
+                        .btn-qq{
+                            background: url(../../dist/img/Login_qq.png) no-repeat;
+                            background-size: 100%;
+                            margin-left: 37px;
+                        }
+                        .btn-weibo{
+                            background: url(../../dist/img/Login_sina.png) no-repeat;
+                            background-size: 100%;
+                            margin-left: 37px;
+                        }
+                        .btn-alipay{
+                            background: url(../../dist/img/Login_alipay.png) no-repeat;
+                            background-size: 100%;
+                            margin-left: 37px;
+                        }
+                        a{
+                            color: #005bb5;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.footer{
+    width: 100%;
+    border-top: 1px solid #ccc;
+    padding: 10px 0;
+    .footer-center{
+        width: 1024px;
+        margin: 0 auto;
+        .footer-bottom{
+            font-size: 13px;
+            color: #666;
+            line-height: 25px;
+            margin-top: 5px;
+            a{
+                color: #333;
+                position: relative;
+                top: -10px;
+                text-decoration: none;
+                img{
+                    margin-right: 5px;
+                    position: relative;
+                    top: 5px;
+                    color: #333;
+                }
+            }
+        }
+    }
+}

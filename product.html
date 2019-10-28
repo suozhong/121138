@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>商品页</title>
+    <link rel="stylesheet" href="./dist/css/product.min.css">
+    <script src="./dist/js/jquery-1.12.4.min.js"></script>
+</head>
+<body>
+    <!-- 顶部 -->
+    <div id='top'>
+        <div class='wrap'>
+            <ul class='left'>
+               <li class='collect'>
+                   <a href="javascript:;">收藏视客眼镜网</a>
+                </li>
+                <li class="line">
+                   <span>|</span>
+                </li>
+                <li class='login'>
+                    <a href="login.html">登录</a>
+                    <a href="register.html">注册</a>
+                </li>
+            </ul>
+            <ul class='right'>
+                <li>
+                    <a href="javascript:;">我的视客</a>
+                </li>
+                <li>
+                    <a href="javascript:;">我的订单</a>
+                </li>
+                <li>
+                    <a href="javascript:;">帮助中心</a>
+                </li>
+                <li>
+                    <span>|</span>
+                </li>
+                <li class='maincart'>
+                    <img src="./dist/img/maincart.png">
+                </li>
+                <li style='margin-left: 3px;'>
+                    <a href="cart.html">购物车</a>
+                </li>
+                <li class='phone'>
+                    <img src="./dist/img/phone.png">
+                </li>
+                <li class='phone-img' style='margin-left: 0px;'>
+                    <a href="javascript:;">手机版</a>
+                    <img class='img-phone' src="./dist/img/pic2wei.jpg">
+                </li>
+                <li class='customer'>
+                    <img src="./dist/img/Customer.png">
+                </li>
+                <li style='margin-left: 3px;'>
+                    <a href="javascript:;">在线客服</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- 广告 -->
+    <div class='ad-banner'>
+        <a href="javascript:;">
+            <img src="./dist/img/ad-banner.jpg" title="开学新妆备，博士伦大放价">
+        </a>
+    </div>
+
+
+    <!-- 头部 -->
+    <div id="header">
+        <div class="logo-new">
+            <a href="./index.html">
+                <img src="./dist/img/logo_new.jpg" title="视客眼镜网官网">
+            </a>
+        </div>
+        <div class="search">
+            <div class="search-bd">
+                <input type="text" id='search-txt' class='search-txt' value='硅水凝胶'>
+                <button id='search-submit' class='search-submit'>搜索</button>
+            </div>
+            <div class="keywords">
+                <a href="javascript:;">清氧清</a>
+                <a href="javascript:;">博士伦</a>
+                <a href="javascript:;">强生舒日</a>
+                <a href="javascript:;">舒视氧</a>
+                <a href="javascript:;" style='color: #d03845'>美若康</a>
+                <a href="javascript:;">茵洛Clalen</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 导航 -->
+    <div class="menu-big">
+        <div id="menu">
+            <!-- 左侧二级菜单 -->
+            <div class='double-menu'>
+                <div id="allsort">
+                    <h2>
+                        <a href="javascript:;">所有商品分类</a>
+                        <span>V</span>
+                    </h2>
+                    <div id="allsortlist">
+                        <div class="lists i01">
+                            <h3>
+                                <b></b>
+                                <div class="lists-contents">
+                                    <a href="javascript:;">隐形眼镜</a>
+                                    <br>
+                                    <a href="javascript:;" class="mm">博士伦</a>
+                                    <a href="javascript:;" class="mm">库博</a>
+                                    <a href="javascript:;" class="mm" style='color: #d03845'>硅水凝胶</a>
+                                </div>
+                            </h3>
+                            <div class="lists-more">
+                                <div class="xilie">
+                                    <dl>
+                                        <dt>
+                                            <span>热销品牌</span>
+                                        </dt>
+                                        <dd>
+                                            <a href="product.html" style="color:#d03845">博士伦</a>
+                                            <a href="javascript:;">强生</a>
+                                            <a href="javascript:;">爱尔康视康</a>
+                                            <a href="javascript:;" style="color:#d03845">库博</a>
+                                            <a href="javascript:;">海昌</a>
+                                            <a href="javascript:;" style="color:#d03845">美若康</a>
+                                            <a href="javascript:;">Clalen</a>
+                                            <a href="javascript:;">Miru米如</a>
+                                            <a href="javascript:;">科莱博</a>
+                                            <a href="javascript:;">菲士康</a>
+                                            <a href="javascript:;">蔡司</a>
+                                            <a href="javascript:;">卫康</a>
+                                            <a href="javascript:;">更多品牌 >></a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>
+                                            <span style="color:#0000CC">人气系列</span>
+                                        </dt>
+                                        <dd>
+                                            <a href="javascript:;">博士伦 | 清朗</a>
+                                            <a href="javascript:;">库博 | 宝睛润</a>
+                                            <a href="javascript:;">强生 | 舒日</a>
+                                            <a href="javascript:;">视康 | 舒视氧</a>
+                                            <a href="javascript:;">库博 | 佰视明</a>
+                                            <a href="javascript:;">美若康 | 沐氧</a>
+                                            <a href="javascript:;">茵洛 | Clalen</a>
+                                            <a href="javascript:;">视康 | 日夜型</a>
+                                            <a href="javascript:;">海昌 | EASY DAY</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>
+                                            <span>抛弃周期</span>
+                                        </dt>
+                                        <dd>
+                                            <a href="javascript:;" style="color:#d03845">日抛</a>
+                                            <a href="javascript:;" style="color:#d03845">双周抛</a>
+                                            <a href="javascript:;">月抛</a>
+                                            <a href="javascript:;">半年抛</a>
+                                            <a href="javascript:;">年抛</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>
+                                            <span style="color:#0000CC">佩戴场合</span>
+                                        </dt>
+                                        <dd>
+                                            <a href="javascript:;">外出游玩（方便卫生）</a>
+                                            <a href="javascript:;" style="color:#d03845">商务职场（舒适自在）</a>
+                                            <a href="javascript:;">青春校园（经济适用）</a>
+                                            <a href="javascript:;" style="color:#d03845">逛街聚会（安心长戴）</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>
+                                            <span>镜片特点</span>
+                                        </dt>
+                                        <dd>
+                                            <a href="javascript:;" style="color:#d03845">高透氧（硅水凝胶）</a>
+                                            <a href="javascript:;" style="color:#d03845">散光、远视、高度近视</a>
+                                            <a href="javascript:;">防UV</a>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lists i02">
+                            <h3>
+                                <b></b>
+                                <div class="lists-contents">
+                                    <a href="javascript:;">彩色隐形眼镜</a>
+                                    <br>
+                                    <a href="javascript:;" class="mm">强生美瞳</a>
+                                    <a href="javascript:;" class="mm">博士伦</a>
+                                    <a href="javascript:;" class="mm">实瞳</a>
+                                </div>
+                            </h3>
+                            <div class="lists-more">
+                                <div class="xilie">
+                                    <dl>
+                                        <dt>
+                                            <span>热销品牌</span>
+                                        </dt>
+                                        <dd>
+                                            <a href="javascript:;" style="color:#d03845">强生</a>
+                                            <a href="javascript:;">博士伦</a>
+                                            <a href="javascript:;">实瞳</a>
+                                            <a href="javascript:;" style="color:#d03845">美若康</a>
+                                            <a href="javascript:;">茵洛Clalen</a>
+                                            <a href="javascript:;">la Deesse女神秘语</a>
+                                            <a href="javascript:;">妃蜜莉</a>
+                                            <a href="javascript:;">绮芙莉</a>
+                                            <a href="javascript:;">evercolor</a>
+                                            <a href="javascript:;">视康</a>
+                                            <a href="javascript:;">海昌</a>
+                                            <a href="javascript:;">Envie </a>
+                                            <a href="javascript:;">新视野</a>
+                                            <a href="javascript:;">人鱼姬</a>
+                                            <a href="javascript:;">Face Titude瞳昕</a>
+                                            <a href="javascript:;">妆美堂</a>
+                                            <a href="javascript:;">NEO</a>
+                                            <a href="javascript:;">海俪恩</a>
+                                            <a href="javascript:;">查看更多 >></a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>
+                                            <span style="color:#0000CC">人气系列</span>
+                                        </dt>
+                                        <dd>
+                                            <a href="javascript:;" style="color:#d03845">博士伦 | 蕾丝</a>
+                                            <a href="javascript:;">强生 | 美瞳</a>
+                                            <a href="javascript:;" style="color:#d03845">实瞳 | 可芙蕾</a>
+                                            <a href="javascript:;">茵洛 | Clalen</a>
+                                            <a href="javascript:;">美若康 | 绽美</a>
+                                            <a href="javascript:;">绮芙莉 | Givre</a>
+                                            <a href="javascript:;">海昌 | 星眸</a>
+                                            <a href="javascript:;">视康 | Freshlook</a>
+                                            <a href="javascript:;">NEO | 小黑环</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>
+                                            <span>抛弃周期</span>
+                                        </dt>
+                                        <dd>
+                                            <a href="javascript:;" style="color:#d03845">日抛</a>
+                                            <a href="javascript:;" style="color:#d03845">双周抛</a>
+                                            <a href="javascript:;">月抛</a>
+                                            <a href="javascript:;">半年抛</a>
+                                            <a href="javascript:;">年抛</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>
+                                            <span>畅销花色</span>
+                                        </dt>
+                                        <dd>
+                                            <a href="javascript:;">蕾丝</a>
+                                            <a href="javascript:;">钻石</a>
+                                            <a href="javascript:;">巨目</a>
+                                            <a href="javascript:;">梦幻</a>
+                                            <a href="javascript:;">双色</a>
+                                            <a href="javascript:;">三色</a>
+                                        </dd>
+                                    </dl>                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lists i03">
+                            <h3>
+                                <b></b>
+                                <div class="lists-contents">
+                                    <a href="javascript:;">护理用品</a>
+                                    <br>
+                                    <a href="javascript:;" class="mm">护理液</a>
+                                    <a href="javascript:;" class="mm">润眼液</a>
+                                    <a href="javascript:;" class="mm" style='color: #d03845'>硬镜护理</a>
+                                </div>
+                            </h3>
+                            <div class="lists-more">
+                                <div class="xilie">
+                                    <dl>
+                                        <dt>
+                                            <span>护理液</span>
+                                        </dt>
+                                        <dd>
+                                            <a href="javascript:;" style="color:#d03845">博士伦 | 博乐纯</a>
+                                            <a href="javascript:;">爱尔康 | 傲滴</a>
+                                            <a href="javascript:;" style="color:#d03845">视康 | 双氧水</a>
+                                            <a href="javascript:;">海昌 | 水感觉</a>
+                                            <a href="javascript:;">曼秀雷敦 | 乐敦清</a>
+                                            <a href="javascript:;">澜柏 | 新加坡进口</a>
+                                            <a href="javascript:;">卫康 | 新视</a>
+                                            <a href="javascript:;">雅培 | 智护</a>
+                                            <a href="javascript:;">科莱博 | 双重保湿</a>
+                                            <a href="javascript:;">更多品牌 >></a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>
+                                            <span>润眼液</span>
+                                        </dt>
+                                        <dd>
+                                            <a href="javascript:;">博士伦</a>
+                                            <a href="javascript:;">科莱博</a>
+                                            <a href="javascript:;" style="color:#d03845">爱尔康</a>
+                                            <a href="javascript:;">海昌</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>
+                                            <span style="color:#d03845">RGP硬镜护理</span>
+                                        </dt>
+                                        <dd>
+                                            <a href="javascript:;">博视顿 | 硬镜护理</a>
+                                            <a href="javascript:;">美尼康 | 硬镜护理</a>
+                                            <a href="javascript:;">培克能 | 硬镜护理</a>
+                                            <a href="javascript:;">硬镜专用 | 伴侣盒</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>
+                                            <span>伴侣盒</span>
+                                        </dt>
+                                        <dd>
+                                            <a href="javascript:;">Holy nara</a>
+                                            <a href="javascript:;">凯达/好品质</a>                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>
+                                            <span>人气搜索</span>
+                                        </dt>
+                                        <dd>
+                                            <a href="javascript:;">促销装</a>
+                                            <a href="javascript:;">原装进口</a>
+                                            <a href="javascript:;">水润保湿</a>
+                                            <a href="javascript:;">不含防腐剂</a>
+                                            <a href="javascript:;">框架镜清洗液</a>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lists i04">
+                            <h3>
+                                <b></b>
+                                <div class="lists-contents">
+                                    <a href="javascript:;">太阳眼镜</a>
+                                    <br>
+                                    <a href="javascript:;" class="mm">雷朋</a>
+                                    <a href="javascript:;" class="mm">朵米娜</a>
+                                    <a href="javascript:;" class="mm">偏光太阳镜</a>
+                                </div>
+                            </h3>
+                            <div class="lists-more">
+                                <div class="xilie">
+                                    <dl>
+                                        <dt>
+                                            <span>热销品牌</span>
+                                        </dt>
+                                        <dd>
+                                            <a href="javascript:;" style="color:#d03845">雷朋</a>
+                                            <a href="javascript:;" style="color:#d03845">朵米娜</a>
+                                            <a href="javascript:;">海伦凯勒</a>
+                                            <a href="javascript:;" style="color:#d03845">纽尚</a>
+                                            <a href="javascript:;">保圣</a>
+                                            <a href="javascript:;" style="color:#d03845">邦士度骑行镜</a>
+                                            <a href="javascript:;">派丽蒙</a>
+                                            <a href="javascript:;">海豚</a>
+                                            <a href="javascript:;">卡帝乐鳄鱼</a>
+                                            <a href="javascript:;">蓝色沸点</a>
+                                            <a href="javascript:;">欧野</a>
+                                            <a href="javascript:;">诺帝卡</a>
+                                            <a href="javascript:;">澳洲袋鼠</a>
+                                            <a href="javascript:;">OCCO欧蔻</a>
+                                            <a href="javascript:;">NIKE</a>
+                                            <a href="javascript:;">更多</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>
+                                            <span>适用人群</span>
+                                        </dt>
+                                        <dd>
+                                            <a href="javascript:;">时尚精英</a>
+                                            <a href="javascript:;">白领丽人</a>
+                                            <a href="javascript:;">青春校园</a>
+                                            <a href="javascript:;">妈妈款</a>                                            
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>
+                                            <span>用途风格</span>
+                                        </dt>
+                                        <dd>
+                                            <a href="javascript:;">偏光驾驶</a>
+                                            <a href="javascript:;">户外骑行</a>
+                                            <a href="javascript:;">夹片/挂镜</a>
+                                            <a href="javascript:;">套镜</a>
+                                            <a href="javascript:;">蛤蟆镜</a>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lists i05">
+                            <h3>
+                                <b></b>
+                                <div class="lists-contents">
+                                    <a href="javascript:;">功能眼镜</a>
+                                    <br>
+                                    <a href="javascript:;" class="mm">游泳镜</a>
+                                    <a href="javascript:;" class="mm">篮球镜</a>
+                                    <a href="javascript:;" class="mm" style='color: #d03845'>老花镜</a>
+                                </div>
+                            </h3>
+                            <div class="lists-more">
+                                <div class="xilie">
+                                    <dl>
+                                        <dt>
+                                            <span>功能用途</span>
+                                        </dt>
+                                        <dd>
+                                            <a href="javascript:;">篮球镜</a>
+                                            <a href="javascript:;">游泳镜</a>
+                                            <a href="javascript:;">老花镜</a>
+                                            <a href="javascript:;">户外骑行</a>
+                                            <a href="javascript:;">滑雪镜</a>
+                                            <a href="javascript:;">3D眼镜</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>
+                                            <span>热销品牌</span>
+                                        </dt>
+                                        <dd>
+                                            <a href="javascript:;" style="color:#d03845">捷佳 / 游泳镜</a>                                        
+                                            <a href="javascript:;" style="color:#d03845">邦士度 / 篮球镜</a>
+                                            <a href="javascript:;">年轻态 / 老花镜</a>
+                                            <a href="javascript:;">夕阳伴侣 / 老花镜</a>
+                                            <a href="javascript:;">BLICK / 游泳镜</a>                                            
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 条形导航 -->
+            <div class="nav-items">
+                <ul class="top-nav">
+                    <li>
+                        <a href="index.html">首页</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">海淘 
+                            <i>NEW</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">i秒杀 / 今日值得买</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">隐形眼镜</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">硅水凝胶</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">美瞳</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">镜片护理</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">眼镜学堂</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">金币商城</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- 中心 -->
+    <div class="div-center">
+            <div class="search_lst">
+                    <ul id="ctl00_Main_searchListUL">
+                        <li>
+                            <div class="Npro_img">
+                                <a href="javascript:;" target="_blank">
+                                    <img src="https://images.vsigo.cn/Products/contacts/210-210/201882710353496770.jpg" alt="博士伦蕾丝闪眸半年抛彩色隐形眼镜1片装" />
+                                    <i class="mark_red mark_font2">降价</i>
+                                </a>
+                            </div>
+                            <div class="Npro_title goodsTitleWrap clearindex">
+                                <a href="javascript:;" title="博士伦蕾丝闪眸半年抛彩色隐形眼镜1片装新品上市，韩国原装，三色蕾丝！4盒领券减30，仅51/盒！">
+                                    <b class='titleBar'>博士伦蕾丝闪眸半年抛彩色隐形眼镜1片装</b>
+                                    <span class='subtitleBar'>新品上市，韩国原装，三色蕾丝！4盒领券减30，仅51/盒！</span>
+                                    <i class='ruler' rulertype='subtitleRuler'>新品上市，韩国原装，三色蕾丝！4盒领券减30，仅51/盒！</i>
+                                    <i class='ruler' rulertype='titleRuler'>博士伦蕾丝闪眸半年抛彩色隐形眼镜1片装</i>
+                                </a>
+                            </div>
+                            <div class="Npro_price">
+                                <span class="sigoprice">￥58</span>
+                                <div class="float_right"></div>
+                            </div>
+                            <div class="caozuo_btn">
+                                <a href="javascript:void(0);" class="but_kuang" onclick="AddInFavourite(13393)">收藏</a>
+                            </div>
+                            <div class="pinglun">
+                                <b class="star_ico_yes"></b>
+                                <b class="star_ico_yes"></b>
+                                <b class="star_ico_yes"></b>
+                                <b class="star_ico_yes"></b>
+                                <b class="star_ico_yes"></b>
+                                <a href="https://www.vsigo.cn/item13393.html#com_summary" class="blue" target="_blank">
+                                    <span class="comm_num">326条评论</span>
+                                </a>
+                            </div>
+                        </li>
+    </div>    
+
+    <script src="./dist/js/product.min.js"></script>
+</body>
+</html>

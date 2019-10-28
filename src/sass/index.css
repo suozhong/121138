@@ -1,0 +1,457 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #333;
+  font-size: 12px;
+  text-align: left;
+  display: block;
+}
+
+div, ul, li {
+  list-style: none;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* 顶部 */
+#top {
+  color: #999;
+  height: 30px;
+  background-color: #f2f2f2;
+}
+
+#top .wrap {
+  width: 1190px;
+  height: 16px;
+  line-height: 20px;
+  padding-top: 5px;
+  margin: auto;
+}
+
+#top .wrap .left {
+  float: left;
+}
+
+#top .wrap .left li a {
+  color: #999;
+}
+
+#top .wrap .left li a:hover {
+  color: #d03845;
+}
+
+#top .wrap .left .collect {
+  float: left;
+  width: 90px;
+}
+
+#top .wrap .left .line {
+  float: left;
+}
+
+#top .wrap .left .line .span {
+  color: #c6c6c6;
+}
+
+#top .wrap .left .login {
+  float: left;
+  width: 100px;
+  margin-left: 10px;
+}
+
+#top .wrap .left .login a {
+  margin-right: 10px;
+}
+
+#top .wrap .left .login a:hover {
+  color: #d03845;
+}
+
+#top .wrap .right {
+  float: right;
+  text-align: right;
+}
+
+#top .wrap .right li {
+  float: left;
+  margin-left: 15px;
+}
+
+#top .wrap .right li a {
+  display: inline-block;
+  padding: 0 5px;
+  color: #999;
+}
+
+#top .wrap .right li a:hover {
+  color: #d03845;
+}
+
+#top .wrap .right li .img-phone {
+  display: none;
+  position: absolute;
+  top: 26px;
+  z-index: 1000;
+  right: 70px;
+}
+
+#top .wrap .right .phone-img:hover .img-phone {
+  display: block;
+}
+
+#top .wrap .right .maincart {
+  position: relative;
+}
+
+#top .wrap .right .maincart img {
+  display: block;
+  margin-top: -1px;
+  width: 24px;
+  height: 24px;
+  margin-right: 2px;
+}
+
+#top .wrap .right .phone img {
+  margin-top: 3px;
+}
+
+#top .wrap .right .customer img {
+  margin-top: 4px;
+}
+
+/* 广告 */
+.ad-banner {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.ad-banner a img {
+  display: block;
+  width: 1190px;
+  margin: 0 auto;
+}
+
+/* 头部 */
+#header {
+  margin: 20px auto;
+  width: 1190px;
+  height: 91px;
+}
+
+#header .logo-new {
+  float: left;
+  width: 230px;
+}
+
+#header .search {
+  height: 61px;
+  float: left;
+  padding-top: 30px;
+  margin-left: 60px;
+}
+
+#header .search .search-bd {
+  width: 650px;
+  height: 40px;
+  background-color: #c40000;
+  margin-bottom: 5px;
+}
+
+#header .search .search-bd input {
+  width: 510px;
+  height: 29px;
+  line-height: 29px;
+  font-size: 14px;
+  float: left;
+  border: none;
+  border-top: 1px solid #c2c0c0;
+  border-left: 1px solid #cad7e9;
+  padding: 3px 0 3px 6px;
+  margin: 2px 0 0 2px;
+  color: gray;
+}
+
+#header .search .search-bd button {
+  background-color: #c40000;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: white;
+  width: 131px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+
+#header .search .keywords a {
+  font-family: '宋体';
+  font-size: 14px;
+  color: #666;
+  margin-right: 5px;
+}
+
+#header .search .keywords a:hover {
+  color: #d03845;
+}
+
+/* 导航 */
+.menu-big {
+  width: 100%;
+  height: 37px;
+  background-color: #dd2727;
+}
+
+.menu-big #menu {
+  width: 1190px;
+  height: 37px;
+  margin: auto;
+}
+
+.menu-big #menu .double-menu #allsort {
+  width: 200px;
+  float: left;
+  position: relative;
+  z-index: 1000000;
+}
+
+.menu-big #menu .double-menu #allsort h2 {
+  height: 37px;
+  line-height: 37px;
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+  overflow: hidden;
+  background-color: #c40000;
+}
+
+.menu-big #menu .double-menu #allsort h2 a {
+  color: white;
+  font-size: 14px;
+  padding-left: 15px;
+  font-family: '宋体';
+}
+
+.menu-big #menu .double-menu #allsort #allsortlist {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 37px;
+  width: 198px;
+  background-color: white;
+}
+
+.menu-big #menu .double-menu #allsort #allsortlist .lists {
+  height: 64px;
+  line-height: 26px;
+  border-bottom: 1px solid #e8e8e8;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.menu-big #menu .double-menu #allsort #allsortlist .lists h3 {
+  height: 64px;
+  padding-left: 15px;
+  font-size: 12px;
+  font-weight: normal;
+  font-family: '宋体';
+  position: relative;
+  background-position: 0 0;
+}
+
+.menu-big #menu .double-menu #allsort #allsortlist .lists h3 b {
+  background: url(../../dist/img/index_leftmenu.png) -8px 0 no-repeat;
+  width: 39px;
+  height: 64px;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.menu-big #menu .double-menu #allsort #allsortlist .lists h3 .lists-contents {
+  height: 56px;
+  padding-top: 8px;
+  margin-left: 32px;
+}
+
+.menu-big #menu .double-menu #allsort #allsortlist .lists h3 .lists-contents a {
+  color: #333;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: '宋体';
+}
+
+.menu-big #menu .double-menu #allsort #allsortlist .lists h3 .lists-contents .mm {
+  height: 22px;
+  line-height: 22px;
+  font-size: 12px;
+  font-weight: normal;
+  padding-right: 5px;
+  color: #666;
+}
+
+.menu-big #menu .double-menu #allsort #allsortlist .lists .lists-more {
+  display: none;
+  position: absolute;
+  left: 197px;
+  top: 0;
+  width: 700px;
+  border: 1px solid #efefef;
+  -webkit-box-shadow: 1px 1px 10px #999;
+          box-shadow: 1px 1px 10px #999;
+  background: white;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.menu-big #menu .double-menu #allsort #allsortlist .lists .lists-more .xilie {
+  width: 700px;
+  float: left;
+  padding-bottom: 10px;
+  min-height: 353px;
+}
+
+.menu-big #menu .double-menu #allsort #allsortlist .lists .lists-more .xilie dl {
+  clear: both;
+  margin: -1px 0 0;
+  padding: 10px 0 5px 0;
+  color: #333;
+  border-bottom: 1px dotted #eee;
+  margin-left: 10px;
+  width: 98%;
+}
+
+.menu-big #menu .double-menu #allsort #allsortlist .lists .lists-more .xilie dl dt {
+  position: relative;
+  font-weight: 700;
+  padding-left: 10px;
+}
+
+.menu-big #menu .double-menu #allsort #allsortlist .lists .lists-more .xilie dl dd {
+  padding-left: 10px;
+  line-height: 22px;
+}
+
+.menu-big #menu .double-menu #allsort #allsortlist .lists .lists-more .xilie dl dd a {
+  font-family: '宋体';
+  padding-right: 10px;
+  display: inline-block;
+  margin-right: 15px;
+  margin-top: 5px;
+  height: 18px;
+  line-height: 18px;
+  color: #333;
+  text-align: left;
+  width: auto;
+}
+
+.menu-big #menu .double-menu #allsort #allsortlist .i01 h3 b {
+  background-position: -8px 6px;
+}
+
+.menu-big #menu .double-menu #allsort #allsortlist .i02 h3 b {
+  background-position: -8px -54px;
+}
+
+.menu-big #menu .double-menu #allsort #allsortlist .i03 h3 b {
+  background-position: -8px -117px;
+}
+
+.menu-big #menu .double-menu #allsort #allsortlist .i04 h3 b {
+  background-position: -8px -185px;
+}
+
+.menu-big #menu .double-menu #allsort #allsortlist .i05 h3 b {
+  background-position: -8px -248px;
+}
+
+.menu-big #menu .double-menu #allsort #allsortlist .i01:hover .lists-more {
+  display: block;
+  z-index: 1;
+}
+
+.menu-big #menu .double-menu #allsort #allsortlist .i02:hover .lists-more {
+  display: block;
+  z-index: 1;
+}
+
+.menu-big #menu .double-menu #allsort #allsortlist .i03:hover .lists-more {
+  display: block;
+  z-index: 1;
+}
+
+.menu-big #menu .double-menu #allsort #allsortlist .i04:hover .lists-more {
+  display: block;
+  z-index: 1;
+}
+
+.menu-big #menu .double-menu #allsort #allsortlist .i05:hover .lists-more {
+  display: block;
+  z-index: 1;
+}
+
+.menu-big #menu .double-menu #allsort #allsortlist .lists:hover h3 {
+  position: relative;
+  font-family: '宋体';
+  background-color: #efefef;
+  -webkit-box-shadow: 1px 1px 5px #999;
+          box-shadow: 1px 1px 5px #999;
+  z-index: 2;
+  background-position: 0 -52px;
+}
+
+.menu-big #menu .nav-items {
+  width: 985px;
+  float: right;
+  padding-left: 5px;
+}
+
+.menu-big #menu .nav-items ul li {
+  float: left;
+}
+
+.menu-big #menu .nav-items ul li a {
+  color: white;
+  padding: 0 18px;
+  height: 36px;
+  line-height: 36px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.menu-big #menu .nav-items ul li a i {
+  font-size: 12px;
+  font-weight: 400;
+  position: relative;
+  top: -7px;
+  left: -2px;
+}
+
+/* 中心 */
+.div-center {
+  background: url(../../dist/img/bg.jpg) no-repeat scroll top center #fff;
+  width: 100%;
+  height: 617px;
+}
+
+/* 右侧快捷导航 */
+.quick-links-big {
+  position: fixed;
+  background: #000;
+  font-family: '宋体';
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+/*# sourceMappingURL=index.css.map */
